@@ -9,7 +9,7 @@ import (
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World!")
+	fmt.Fprintf(w, "Golang Authentication using OAuth2.0")
 }
 
 func GoogleLogin(w http.ResponseWriter, r *http.Request) {

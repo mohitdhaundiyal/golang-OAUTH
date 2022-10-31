@@ -6,7 +6,7 @@ import (
 )
 
 func Router(r *mux.Router) {
-	// r.HandleFunc("/", controllers.Home)
+	r.HandleFunc("/", controllers.Home)
 
 	r.HandleFunc("/google_login", controllers.GoogleLogin)
 	r.HandleFunc("/google_callback", controllers.GoogleCallback)
